@@ -1,0 +1,14 @@
+{
+  "name": "needletail-automation-health",
+  "version": "1.0.0",
+  "description": "Concept dashboard: where Needletail's verification AI gets stuck and a human has to step in (synthetic data).",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/model.test.mjs",
+    "start": "node scripts/build.mjs && node scripts/serve.mjs"
+  }
+}
